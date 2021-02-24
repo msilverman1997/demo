@@ -22,7 +22,7 @@ public class Path {
 
     private String type;
 
-    private String DOW;
+    private String dow;
 
     public Path(){}
 
@@ -31,7 +31,7 @@ public class Path {
         this.destination = destination;
         this.distance = distance;
         this.type = type;
-        this.DOW = DOW;
+        this.dow = DOW;
     }
 
     public int getId() {
@@ -75,10 +75,10 @@ public class Path {
     }
 
     public String getDOW() {
-        return DOW;
+        return this.dow;
     }
 
     public void setDOW(String DOW) {
-        this.DOW = DOW;
+        this.dow = DOW;
     }
 }
